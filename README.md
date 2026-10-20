@@ -22,7 +22,6 @@ This repository focuses on post-sequencing read processing and data reconstructi
 
 ## Project Structure
 
-
 ```text
 /
 ├── companion_sequence/                 # Ideal companion sequences

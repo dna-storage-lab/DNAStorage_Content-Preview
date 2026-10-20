@@ -1,8 +1,3 @@
-![cpp version](https://img.shields.io/badge/c%2B%2B-11-orange)
-![shell version](https://img.shields.io/badge/shell-Bash-yellowgreen)
-![license](https://img.shields.io/badge/license-MIT-8A2BE2)
-
-[![Static Badge]()]()
 
 <h1 id="TJU-RuiQin">Content-Derived Molecular Access for On-Demand Preview in DNA Data Storage</h1>
 
@@ -30,40 +25,38 @@ This repository focuses on post-sequencing read processing and data reconstructi
 
 ```text
 /
-├── Content_preview/
-│   ├── companion_sequence/                 # Ideal companion sequences
-│   │   ├── companion_sequence_poem1.txt
-│   │   ├── companion_sequence_poem2.txt
-│   │   ├── companion_sequence_poem3.txt
-│   │   ├── companion_sequence_poem4.txt
-│   │   ├── companion_sequence_poem5.txt
-│   │   ├── companion_sequence_poem6.txt
-│   │   ├── companion_sequence_poem7.txt
-│   │   └── companion_sequence_poem8.txt
-│   ├── sequencing_data/
-│   │   ├── poem1.fastq
-│   │   ├── poem2.fastq
-│   │   ├── poem3.fastq
-│   │   ├── poem4&5.fastq
-│   │   ├── poem6.fastq
-│   │   ├── poem7.fastq
-│   │   └── poem8.fastq
-│   ├── src/                                    # C/C++ sources and Bash scripts
-│   │   ├── read_sampling.cpp                   # Implementation of repeated FASTQ sampling
-│   │   ├── run_read_sampling.sh
-│   │   ├── edlib.h
-│   │   ├── edlib.cpp
-│   │   ├── companion_sequence_alignment.cpp    # Implementation of demapping and alignment
-│   │   ├── run_companion_sequence_alignment.sh
-│   │   ├── HalfMaker.h
-│   │   ├── fb_indel_correction.cpp             # Implementation of forward–backward inference
-│   │   ├── fb_probability_extraction.cpp       # Implementation of probability extraction
-│   │   ├── run_fb_indel_correction.sh
-│   │   ├── probability_merging.cpp             # Implementation of probability merging
-│   │   ├── preview_data_recovery.cpp           # Implementation of content reconstruction
-│   │   └── run_preview_data_recovery.sh
-│   └── result/
-└── README.md
+├── companion_sequence/                 # Ideal companion sequences
+│   ├── companion_sequence_poem1.txt
+│   ├── companion_sequence_poem2.txt
+│   ├── companion_sequence_poem3.txt
+│   ├── companion_sequence_poem4.txt
+│   ├── companion_sequence_poem5.txt
+│   ├── companion_sequence_poem6.txt
+│   ├── companion_sequence_poem7.txt
+│   └── companion_sequence_poem8.txt
+├── sequencing_data/
+│   ├── poem1.fastq
+│   ├── poem2.fastq
+│   ├── poem3.fastq
+│   ├── poem4&5.fastq
+│   ├── poem6.fastq
+│   ├── poem7.fastq
+│   └── poem8.fastq
+├── src/                                    # C/C++ sources and Bash scripts
+│   ├── read_sampling.cpp                   # Implementation of repeated FASTQ sampling
+│   ├── run_read_sampling.sh
+│   ├── edlib.h
+│   ├── edlib.cpp
+│   ├── companion_sequence_alignment.cpp    # Implementation of demapping and alignment
+│   ├── run_companion_sequence_alignment.sh
+│   ├── HalfMaker.h
+│   ├── fb_indel_correction.cpp             # Implementation of forward–backward inference
+│   ├── fb_probability_extraction.cpp       # Implementation of probability extraction
+│   ├── run_fb_indel_correction.sh
+│   ├── probability_merging.cpp             # Implementation of probability merging
+│   ├── preview_data_recovery.cpp           # Implementation of content reconstruction
+│   └── run_preview_data_recovery.sh
+└──README.md
 ```
 
 ## Source Data
